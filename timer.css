@@ -1,0 +1,111 @@
+.dynotifyjs-corner{
+  	width:100%;
+}
+
+.dynotifyjs-corner .dynotifyjs-wrapper, .dynotifyjs-corner .dynotifyjs-container {
+	margin:0 !important;
+}
+
+.dynotifyjs-wrapper .dy-lb-close {
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+    border: none;
+    transition: opacity 0.15s;
+    opacity: 1;
+    background-size: initial;
+    background-repeat: no-repeat;
+    background-position: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 0;
+}
+
+.dy-wrapper-timer{
+    border: 1px solid #575757;
+	background:#B10034;
+  	width:100%;
+  	height:15%;
+  	font-family:Arial, Gadget, sans-serif;
+  	position:relative;
+}
+
+.dy-time{
+  	color:#ffffff;
+  	padding:0.5% 0 0 0;
+  	font-size:14px;
+  	text-align:center;
+  	font-weight: bold;
+}
+
+.dy-digit{
+	font-size:21px;
+}
+
+.dy-bottom-text-timer{
+  	padding:0 0 0.5% 0;
+	color:#ffffff;
+  	font-size:21px;
+  	text-align:center;
+  	font-weight: bold;
+ 	${Should change mouse cursor to pointer on hover}
+}
+
+.dy-x{
+	color:#ffffff;
+  	position:absolute;
+  	right:8px;
+  	top:0px;
+  	font-size:25px;
+  	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dy-x:hover{
+	cursor:pointer;
+}
+
+@media (max-width:976px){
+  
+	.dy-time{
+  		font-size:11px;
+	}
+  
+ 	 .dy-x{
+   		font-size:20px;
+  	 }
+
+	.dy-digit{
+		font-size:18px;
+	}
+
+	.dy-bottom-text-timer{
+  		font-size:18px;
+	}
+
+}
+
+@media (max-width:700px){
+  
+	.dy-time{
+  		font-size:10px;
+	}
+  
+ 	 .dy-x{
+   		font-size:12px;
+  	 }
+
+	.dy-digit{
+		font-size:12px;
+	}
+
+	.dy-bottom-text-timer{
+  		font-size:12px;
+	}
+
+}
+
+@media (max-width:360px){
+	.dy-x{
+		display:none;
+	}
+}
